@@ -1,5 +1,5 @@
 {
-  "name": "my_module",
+  "name": "my_module_shoshi",
   "version": "1.0.0",
   "description": "print module",
   "main": "index.js",
@@ -7,5 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {}
 }
