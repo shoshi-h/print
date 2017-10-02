@@ -1,14 +1,17 @@
-var module = require('./lib/print.js');
 
 
 function myModule() {
-    if (false === (this instanceof myModule)) {
-        return new myModule();
+    return{
+        Name:function () {
+            return 'shoshi'
+        },
+
+        LastName:function () {
+            return 'Horen'
+        }
     }
 }
-myModule.prototype.printName = function (name,family)  {
-    module.printName(name,family);
-}
+
 
 
 module.exports = new myModule();
