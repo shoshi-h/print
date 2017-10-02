@@ -1,17 +1,4 @@
 
+'use strict';
 
-function myModule() {
-    return{
-        Name:function () {
-            return 'shoshi'
-        },
-
-        LastName:function () {
-            return 'Horen'
-        }
-    }
-}
-
-
-
-module.exports = new myModule();
+module.exports = require('./lib/print.js');
